@@ -43,6 +43,8 @@ const About: React.FC = () => {
               <img
                 src="https://images.unsplash.com/photo-1771244702701-6c9edac63255?auto=format&w=1200&q=80&fit=crop"
                 alt="Marcus Thorne, CPA"
+                width={800}
+                height={1000}
                 className="w-full grayscale brightness-90 contrast-110 shadow-2xl"
               />
               <div className="hidden sm:block absolute -bottom-8 -right-8 w-48 h-48 bg-[#2A5CC0]/10 -z-10"></div>
@@ -74,12 +76,12 @@ const About: React.FC = () => {
                 <span className="text-xs font-black text-[#2A5CC0] uppercase tracking-[0.15em] block mb-2">
                   Formación Académica
                 </span>
-                <h4 className="text-xl sm:text-2xl font-black text-[#0A192F] mb-2 font-inter break-words">
+                <h3 className="text-xl sm:text-2xl font-black text-[#0A192F] mb-2 font-inter break-words">
                   Maestría en Finanzas, LSE{" "}
                   <span className="text-xs font-normal opacity-40 ml-2">
                     2008
                   </span>
-                </h4>
+                </h3>
                 <p className="text-[#0A192F]/70 font-medium leading-relaxed">
                   Formación académica de primer nivel en sistemas tributarios
                   globales y política macrofiscal.
@@ -91,12 +93,12 @@ const About: React.FC = () => {
                 <span className="text-xs font-black text-[#2A5CC0] uppercase tracking-[0.15em] block mb-2">
                   Rigor Profesional
                 </span>
-                <h4 className="text-xl sm:text-2xl font-black text-[#0A192F] mb-2 font-inter break-words">
+                <h3 className="text-xl sm:text-2xl font-black text-[#0A192F] mb-2 font-inter break-words">
                   Certificación Auditor Big Four{" "}
                   <span className="text-xs font-normal opacity-40 ml-2">
                     2012
                   </span>
-                </h4>
+                </h3>
                 <p className="text-[#0A192F]/70 font-medium leading-relaxed">
                   Gestión de auditorías complejas para empresas Fortune 500 y
                   firmas de capital de riesgo.
@@ -108,12 +110,12 @@ const About: React.FC = () => {
                 <span className="text-xs font-black text-[#2A5CC0] uppercase tracking-[0.15em] block mb-2">
                   Filosofía Boutique
                 </span>
-                <h4 className="text-xl sm:text-2xl font-black text-[#0A192F] mb-2 font-inter break-words">
+                <h3 className="text-xl sm:text-2xl font-black text-[#0A192F] mb-2 font-inter break-words">
                   Fundación de Thorne & Associates{" "}
                   <span className="text-xs font-normal opacity-40 ml-2">
                     2018
                   </span>
-                </h4>
+                </h3>
                 <p className="text-[#0A192F]/70 font-medium leading-relaxed">
                   Establecimiento de una práctica boutique de alta fidelidad
                   enfocada en la precisión absoluta.

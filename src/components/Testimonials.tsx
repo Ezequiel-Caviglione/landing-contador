@@ -43,9 +43,9 @@ const Testimonials: React.FC = () => {
 
             <div className="space-y-16 md:space-y-24">
               <div>
-              <h4 className="text-2xl font-bold text-[#0A192F] mb-6 font-inter uppercase">
+              <h3 className="text-2xl font-bold text-[#0A192F] mb-6 font-inter uppercase">
                 Cero Margen de Error
-              </h4>
+              </h3>
               <p className="text-lg text-[#0A192F]/60 leading-relaxed font-medium">
                 Creemos que la contabilidad debe ser el componente más
                 confiable de la arquitectura de tu negocio. Nuestros sistemas
@@ -55,9 +55,9 @@ const Testimonials: React.FC = () => {
               </div>
 
               <div>
-              <h4 className="text-2xl font-bold text-[#0A192F] mb-6 font-inter uppercase">
+              <h3 className="text-2xl font-bold text-[#0A192F] mb-6 font-inter uppercase">
                 Estrategia Integrada
-              </h4>
+              </h3>
               <p className="text-lg text-[#0A192F]/60 leading-relaxed font-medium">
                 La preparación de impuestos no es una tarea anual; es una
                 ventaja táctica durante todo el año. Alineamos tu calendario

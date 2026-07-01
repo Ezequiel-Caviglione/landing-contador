@@ -4,8 +4,6 @@ import { MoveRight } from "lucide-react";
 
 const Hero: React.FC = () => {
   const heroRef = useRef<HTMLDivElement>(null);
-  const containerRef = useRef<HTMLDivElement>(null);
-
   useEffect(() => {
     const ctx = gsap.context(() => {
       const tl = gsap.timeline();
@@ -76,6 +74,8 @@ const Hero: React.FC = () => {
             <img
               src="https://images.unsplash.com/photo-1737574821698-862e77f044c1?auto=format&w=1200&q=80&fit=crop"
               alt="Ejecutivo Contable"
+              width={1200}
+              height={900}
               className="w-full h-full object-cover grayscale contrast-125 opacity-90"
             />
             <div className="absolute inset-0 border border-[#0A192F] z-10 pointer-events-none"></div>
